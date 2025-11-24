@@ -1,0 +1,41 @@
+*{
+    font-family: cursive;
+    font-weight: 500;
+    justify-items: center;
+}
+
+button{
+    border-radius: 10px;
+    margin: 10px;
+    justify-items: flex-start;
+    align-content: space-between;
+    width: 100px;
+    height: 40px;
+    box-shadow: 6px 6px 6px lightgray;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: inset 6px 6px 6px rgba(225, 234, 231, 0.352);
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#random {
+    background-color: whitesmoke;
+    color: black;
+}
+
